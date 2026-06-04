@@ -1,8 +1,9 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
-
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+export default function App() {
+  return (
+    <div className="h-screen flex items-center justify-center bg-blue-50">
+      <h1 className="text-4xl font-bold text-blue-600">
+        Tailwind is working 
+      </h1>
+    </div>
+  );
+}
