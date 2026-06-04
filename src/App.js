@@ -1,12 +1,12 @@
-import LoanForm from "./LoanForm";
+import { Routes, Route } from "react-router-dom";
+import Dashboard from "./pages/Dashboard";
+import Analytics from "./pages/Analytics";
 
-function App() {
+export default function App() {
   return (
-    <div style={{ padding: 20 }}>
-      <h1>Ujima SACCO Loan System</h1>
-      <LoanForm />
-    </div>
+    <Routes>
+      <Route path="/" element={<Dashboard />} />
+      <Route path="/analytics" element={<Analytics />} />
+    </Routes>
   );
 }
-
-export default App;
