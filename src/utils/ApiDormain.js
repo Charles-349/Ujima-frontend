@@ -1,0 +1,1 @@
+export const ApiDormain= "https://ujima-frontend-gold.vercel.app"

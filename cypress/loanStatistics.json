@@ -1,0 +1,12 @@
+{
+  "name": "Charles David",
+  "age": 30,
+  "occupation": "Software Engineer",
+  "loanAmount": 50000,
+  "monthlyIncome": 100000,
+  "monthlyExpense": 40000,
+  "existingLoans": 20000,
+  "saccoSavings": 15000,
+  "loanPurpose": "Home Renovation",
+  "message": "I need this loan to renovate my kitchen."
+}
